@@ -1,9 +1,8 @@
 #import libraries
-#!pip install kaggle
 import os
 import zipfile
 
-class KaggIn():
+class Collector():
     def __init__(self, dataset_ref):
         self.dataset_ref = dataset_ref
         
